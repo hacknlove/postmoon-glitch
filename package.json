@@ -1,0 +1,26 @@
+{
+  "name": "postmoon-glitch",
+  "version": "1.0.0",
+  "description": "Empty postmoon project to use in glitch",
+  "main": "index.js",
+  "scripts": {
+    "start": "postmoon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hacknlove/postmoon-glitch.git"
+  },
+  "keywords": [
+    "postmoon",
+    "glitch"
+  ],
+  "author": "Antonio Fernandez Porrua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hacknlove/postmoon-glitch/issues"
+  },
+  "homepage": "https://github.com/hacknlove/postmoon-glitch#readme",
+  "dependencies": {
+    "postmoon": "^2.0.1"
+  }
+}

@@ -4,7 +4,7 @@
   "description": "Empty postmoon project to use in glitch",
   "main": "index.js",
   "scripts": {
-    "start": "postmoon"
+    "dev": "nodemon --watch ./ --watch ../postmoon --exec  \"npx -p ../postmoon\""
   },
   "repository": {
     "type": "git",

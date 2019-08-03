@@ -4,7 +4,8 @@
   "description": "Empty postmoon project to use in glitch",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --watch ./ --watch ../postmoon --exec  \"npx -p ../postmoon\""
+    "start": "postmoon",
+    "dev": "nodemon --watch ./ --watch ../postmoon ../postmoon/index"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,9 @@
     "url": "https://github.com/hacknlove/postmoon-glitch/issues"
   },
   "homepage": "https://github.com/hacknlove/postmoon-glitch#readme",
-  "dependencies": {
-    "postmoon": "^2.0.1"
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "postmoon": "^2.1.0"
   }
 }
